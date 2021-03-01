@@ -1,0 +1,22 @@
+{
+  "name": "botdorpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "newrelic": "^7.1.1",
+    "socket.io": "^2.3.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

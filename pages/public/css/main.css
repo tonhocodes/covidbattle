@@ -1,0 +1,35 @@
+body {
+  width: 250px;
+  height: 300px;
+}
+
+.covid {
+  display: block;
+  color: white;
+  background-color: #0c0a0f;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.4em;
+  border-radius: 10px;
+  border-color: #ddd;
+  border-width: 8px;
+  border-style: solid;
+  font-size: 20px;
+
+  opacity: 0;
+  animation-duration: 15s;
+  animation-name: fade;
+}
+
+@keyframes fade {
+  10% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
