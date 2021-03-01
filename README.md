@@ -11,8 +11,8 @@ When the game starts, the players was 40 seconds to join. Being a Doctor, Nurse 
 The players has three commands to use:
 
 1. - !attack | The Covid will be attack, taking a variable damage.
-2. - !vacine | The covid will be attack, taking a variable damage and a bônus damages. Can be used for Doctors and Scientists one time in the match.
-3. - !alcool | You enter in a defense position, taking less damage from Covid.
+2. - !vaccine | The covid will be attack, taking a variable damage and a bônus damages. Can be used for Doctors and Scientists one time in the match.
+3. - !alcohol | You enter in a defense position, taking less damage from Covid.
 4. - !cure | You try to cure another infected person, who is no longer in the game. People with Doctor and Scientist classes can use this command one time in the match. But people with Nurse class can use this command several times during the match.
 
 After players round, the Covid round will start. And all players will be attacked, taking a damage and can be infected. The game ends when the Covid is destructed, or when all players are infected.
@@ -37,8 +37,10 @@ TOKEN=yourtoken
 CHANEL=yourchannel
 ```
 
+After this, create a project in [New Relic](https://one.newrelic.com/) and download `newrelic.js` and put in this folder, and New Relic will be connected in Covid Battle.
+
 After put your token, you can use the command `node index.js --chanel [YOUR CHANNEL]` to start the bot.
 
-Now, you can enter in the address `http://localhost:3000` in your browser or OBS Browser overlay. To show a character of Covid and the life.
+Now, you can enter in the address `http://localhost:3000` in your browser or OBS Browser overlay. To show a character of Covid and the it life.
 
 ![Game overlay](assets/capture01.png)
